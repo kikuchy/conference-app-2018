@@ -17,6 +17,7 @@
 		95032976200DB29100436AC9 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 95032975200DB29100436AC9 /* src */; };
 		95032979200DB2B500436AC9 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95032977200DB2B500436AC9 /* CMakeLists.txt */; };
 		9503297A200DB2B500436AC9 /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = 95032978200DB2B500436AC9 /* build.gradle */; };
+		9503297D200DED9700436AC9 /* SessionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9503297C200DED9700436AC9 /* SessionDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		95032975200DB29100436AC9 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 		95032977200DB2B500436AC9 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		95032978200DB2B500436AC9 /* build.gradle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
+		9503297B200DED9700436AC9 /* SessionDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionDetailViewController.h; sourceTree = "<group>"; };
+		9503297C200DED9700436AC9 /* SessionDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				9503294E200D9C6800436AC9 /* AppDelegate.m */,
 				95032950200D9C6800436AC9 /* SessionsListViewController.h */,
 				95032951200D9C6800436AC9 /* SessionsListViewController.m */,
+				9503297B200DED9700436AC9 /* SessionDetailViewController.h */,
+				9503297C200DED9700436AC9 /* SessionDetailViewController.m */,
 				95032953200D9C6800436AC9 /* Main.storyboard */,
 				95032956200D9C6800436AC9 /* Assets.xcassets */,
 				95032958200D9C6800436AC9 /* LaunchScreen.storyboard */,
@@ -252,6 +257,7 @@
 			files = (
 				95032952200D9C6800436AC9 /* SessionsListViewController.m in Sources */,
 				9503295D200D9C6800436AC9 /* main.m in Sources */,
+				9503297D200DED9700436AC9 /* SessionDetailViewController.m in Sources */,
 				9503294F200D9C6800436AC9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
