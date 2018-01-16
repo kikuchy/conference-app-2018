@@ -8,6 +8,9 @@
 # Features
 TBD
 
+# iOS app
+see [README of iOS project](ios/README.md)
+
 # Contributing
 We are always welcome your contribution!
 
