@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SessionsListViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *sessionsTable;
 
 @end
 

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9503294F200D9C6800436AC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9503294E200D9C6800436AC9 /* AppDelegate.m */; };
-		95032952200D9C6800436AC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95032951200D9C6800436AC9 /* ViewController.m */; };
+		95032952200D9C6800436AC9 /* SessionsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95032951200D9C6800436AC9 /* SessionsListViewController.m */; };
 		95032955200D9C6800436AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95032953200D9C6800436AC9 /* Main.storyboard */; };
 		95032957200D9C6800436AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95032956200D9C6800436AC9 /* Assets.xcassets */; };
 		9503295A200D9C6800436AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95032958200D9C6800436AC9 /* LaunchScreen.storyboard */; };
@@ -33,8 +33,8 @@
 		9503294A200D9C6800436AC9 /* DroidKaigi2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroidKaigi2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9503294D200D9C6800436AC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9503294E200D9C6800436AC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		95032950200D9C6800436AC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		95032951200D9C6800436AC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95032950200D9C6800436AC9 /* SessionsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionsListViewController.h; sourceTree = "<group>"; };
+		95032951200D9C6800436AC9 /* SessionsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionsListViewController.m; sourceTree = "<group>"; };
 		95032954200D9C6800436AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95032956200D9C6800436AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95032959200D9C6800436AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 			children = (
 				9503294D200D9C6800436AC9 /* AppDelegate.h */,
 				9503294E200D9C6800436AC9 /* AppDelegate.m */,
-				95032950200D9C6800436AC9 /* ViewController.h */,
-				95032951200D9C6800436AC9 /* ViewController.m */,
+				95032950200D9C6800436AC9 /* SessionsListViewController.h */,
+				95032951200D9C6800436AC9 /* SessionsListViewController.m */,
 				95032953200D9C6800436AC9 /* Main.storyboard */,
 				95032956200D9C6800436AC9 /* Assets.xcassets */,
 				95032958200D9C6800436AC9 /* LaunchScreen.storyboard */,
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95032952200D9C6800436AC9 /* ViewController.m in Sources */,
+				95032952200D9C6800436AC9 /* SessionsListViewController.m in Sources */,
 				9503295D200D9C6800436AC9 /* main.m in Sources */,
 				9503294F200D9C6800436AC9 /* AppDelegate.m in Sources */,
 			);
@@ -403,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DroidKaigi2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.droidkaigi.confsched2018.DroidKaigi2018;
@@ -416,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DroidKaigi2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.droidkaigi.confsched2018.DroidKaigi2018;
