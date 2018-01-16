@@ -6,13 +6,13 @@
 //  Copyright © 2018年 DroidKaigi. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SessionsListViewController.h"
 
-@interface ViewController ()
+@interface SessionsListViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SessionsListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
