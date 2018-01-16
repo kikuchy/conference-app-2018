@@ -9,6 +9,7 @@ import platform.UIKit.*
 @ExportObjCClass
 class SessionDetailViewController(aDecoder: NSCoder) : UIViewController(aDecoder) {
 
+    @ObjCOutlet lateinit var containerScroll: UIScrollView
     @ObjCOutlet lateinit var titleLabel: UILabel
     @ObjCOutlet lateinit var speakerAvatarImage: UIImageView
     @ObjCOutlet lateinit var speakerNameLabel: UILabel
@@ -20,5 +21,8 @@ class SessionDetailViewController(aDecoder: NSCoder) : UIViewController(aDecoder
 
     override fun viewDidLoad() {
         super.viewDidLoad()
+
+        // FIXME: It's not elegant.
+        containerScroll.contentInset = UIEdgeInsetsMake(64.0 /* = Status bar height + Navigation bar height  */, 0.0, 0.0, 0.0)
     }
 }

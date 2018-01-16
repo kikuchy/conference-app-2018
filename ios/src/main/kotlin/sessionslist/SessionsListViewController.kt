@@ -16,7 +16,7 @@ class SessionsListViewController(aDecoder: NSCoder) : UIViewController(aDecoder)
 
     override fun viewDidLoad() {
         super.viewDidLoad()
-        // TODO: It's not elegant.
+        // FIXME: It's not elegant.
         sessionsTable.contentInset = UIEdgeInsetsMake(64.0 /* = Status bar height + Navigation bar height  */, 0.0, 0.0, 0.0)
         sessionsTable.dataSource = SessionsListDataSource()
     }

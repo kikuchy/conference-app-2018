@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SessionDetailViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIScrollView *containerScroll;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *speakerAvatarImage;
 @property (weak, nonatomic) IBOutlet UILabel *speakerNameLabel;
