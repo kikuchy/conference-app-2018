@@ -14,6 +14,9 @@
 		9503295A200D9C6800436AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95032958200D9C6800436AC9 /* LaunchScreen.storyboard */; };
 		9503295D200D9C6800436AC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9503295C200D9C6800436AC9 /* main.m */; };
 		95032967200D9C6800436AC9 /* DroidKaigi2018Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95032966200D9C6800436AC9 /* DroidKaigi2018Tests.m */; };
+		95032976200DB29100436AC9 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 95032975200DB29100436AC9 /* src */; };
+		95032979200DB2B500436AC9 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95032977200DB2B500436AC9 /* CMakeLists.txt */; };
+		9503297A200DB2B500436AC9 /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = 95032978200DB2B500436AC9 /* build.gradle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		95032962200D9C6800436AC9 /* DroidKaigi2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroidKaigi2018Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95032966200D9C6800436AC9 /* DroidKaigi2018Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroidKaigi2018Tests.m; sourceTree = "<group>"; };
 		95032968200D9C6800436AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95032975200DB29100436AC9 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		95032977200DB2B500436AC9 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		95032978200DB2B500436AC9 /* build.gradle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 		95032941200D9C6800436AC9 = {
 			isa = PBXGroup;
 			children = (
+				95032978200DB2B500436AC9 /* build.gradle */,
+				95032977200DB2B500436AC9 /* CMakeLists.txt */,
+				95032975200DB29100436AC9 /* src */,
 				9503294C200D9C6800436AC9 /* DroidKaigi2018 */,
 				95032965200D9C6800436AC9 /* DroidKaigi2018Tests */,
 				9503294B200D9C6800436AC9 /* Products */,
@@ -188,8 +197,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9503295A200D9C6800436AC9 /* LaunchScreen.storyboard in Resources */,
+				9503297A200DB2B500436AC9 /* build.gradle in Resources */,
 				95032957200D9C6800436AC9 /* Assets.xcassets in Resources */,
 				95032955200D9C6800436AC9 /* Main.storyboard in Resources */,
+				95032976200DB29100436AC9 /* src in Resources */,
+				95032979200DB2B500436AC9 /* CMakeLists.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
